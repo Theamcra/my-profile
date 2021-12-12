@@ -1,0 +1,123 @@
+body{
+	background-color: white;
+}
+
+
+h1,h2 {
+	color: white;
+	font-family: 'Merriweather', serif;
+	
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 700px;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 300px;
+}
+
+p {
+	color: white;
+	font-family: 'Lora', serif;
+	font-size: 23px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: calibri;
+	font-size: 20px;
+}
+
+a:hover {
+	color: #A0937D;
+	font-size: 24px;
+}
+
+.container {
+	width: 1040px;
+	margin: 0 auto;
+}
+
+.card-white {
+	background: #DBD0C0;
+	padding : 40px;
+	margin: 35px auto;
+	border-radius:6px;
+	box-shadow: 0 20px 20px rgba(20, 20, 40, 0,5); 
+	text-align: center;	
+}	
+
+#image-plage {
+	background-image: url(Image/photo1.jpg);
+	background-position: center;
+}
+
+#image-études {
+	background-image: url(Image/work5.gif);
+	background-position: center;
+}
+
+#list-inline {
+	list-style: none;
+	margin-left: 10;
+	padding-left: 10;
+}
+
+li {
+	margin-bottom: 20px;
+	display: inline;
+	font-size: 25px;
+}
+
+#profile-picture {
+	width: 150px;
+	height:150px;
+	border-radius: 50%;
+}
+
+.button {
+	width: 160px;
+	height: 96px;
+	padding: 8px;
+	color: #9A9483;
+	border-radius: 10px;
+	border: solid 1px #9A9483;
+}
+
+.botton hover {
+	background: #A0937D;
+	color: #A0937D;
+	border:solid 1px #A0937D;
+	transition: 0,5s;
+}
+
+.framed-words {
+	font-size : 14px;
+	border: solid 3px #A0937D;
+	padding: 6px;
+	margin: 2px auto;
+}
+
+
+@media(max-width: 600px){
+	.container {
+		width: 400px;
+	}
+}
+
+@media(max-width: 900px) {
+	.container {
+		width: 700px;
+	}
+}
+
+
+
+ 
+
+
+
